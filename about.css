@@ -1,0 +1,126 @@
+body {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    background-image: url(background.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    padding: 10px; 
+    margin: 0 20px; 
+    text-align: center;
+}
+
+header h1 {
+    color: orange;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px 5px;
+    margin: auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+
+ .a a{
+    text-decoration: none;
+    color: wheat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.b a{
+    left: 0px;
+    top: 0px;
+    text-decoration: none;
+    color: wheat;
+    position: absolute;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+
+nav {
+    margin: 20px auto;
+    width: 80%;
+    justify-content:center;
+    
+}
+
+
+nav a{
+    padding: 8px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+}
+
+nav a:hover,
+.a a:hover,
+.b a:hover{
+    transform: translateY(-3Px);
+    text-transform: uppercase;
+    color: rgb(255, 204, 110);
+}
+.about{
+    padding: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    color: #333;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255,0.5);
+}
+
+.about li{
+    margin-bottom:20px;
+}
+
+.about a{
+    
+    color: #333;
+    border-radius: 2px;
+    border: solid 1px;
+    padding: 5px;
+    text-decoration: none;
+    margin: 30px;
+    width: 80%;
+}
+
+.about a:hover{ 
+    color: black;
+}
+
+.table{
+    padding: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    color: #333;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(255,255,255,0.5);
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+
+.about:hover,
+footer:hover,
+.table h2:hover {
+    transform: translateY(-5px);
+}

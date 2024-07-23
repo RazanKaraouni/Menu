@@ -1,0 +1,132 @@
+body {
+    background-image: url(back3.png);
+    background-size: cover;
+    color: whitesmoke;
+    font-style: italic;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+@keyframes fade {
+   from {
+        opacity: 0;
+    }
+    to{
+         opacity: 1;
+    }
+  }
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+    font-size: 24px;
+    animation: fade 5s forwards;
+    margin: auto;
+}
+
+.header {
+    color: orange;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px 5px;
+    margin: auto;
+    animation: fade 5s forwards;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: orange;
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+.navbar {
+    padding: 5px auto;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 10px;
+    animation: fade 3s forwards;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+.welcome {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 60px;
+}
+
+.welcome h2{
+    text-align: center;
+    color: orange;
+}
+
+.welcome a{
+    word-spacing: 5px;
+    padding: 5px;
+    color: wheat;
+    text-decoration: none;
+    border: solid 1px wheat;
+    border-radius: 5px;
+}
+
+.welcome a:hover{
+    color: #FFFFFF;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    height: 30px;
+}
+
+.footer a img {
+    width: 40px;
+    height: 30px;
+    margin: 0 5px; 
+    display: inline-block; 
+    transition: transform 0.3s ease;
+}
+
+.footer a img:hover {
+    transform: scale(1.1);
+}
